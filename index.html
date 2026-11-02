@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>酸菜魚 · 一鍋酸香，魚片滑如絹｜做法 · 歷史 · 互動測驗</title>
+<meta name="description" content="酸菜魚完整做法（附影片）、重慶江津的歷史與產地故事，以及 9 題互動測驗，考你識唔識整一鍋酸菜魚。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="酸菜魚 · 一鍋酸香，魚片滑如絹">
+<meta property="og:description" content="歷史與產地、六步做法、影片示範，加 9 題互動測驗。">
+<meta property="og:image" content="assets/hero.jpg">
+<meta name="theme-color" content="#faf6ee">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#faf6ee;
+  --paper-2:#f3ece0;
+  --ink:#241f1a;
+  --ink-soft:#5a5148;
+  --celadon:#7c9a7e;
+  --celadon-deep:#4f6b52;
+  --chili:#c0392b;
+  --amber:#d99a3b;
+  --clay:#6b4a35;
+  --line:rgba(36,31,26,.12);
+  --serif:"Noto Serif TC","Songti TC","PingFang TC","Microsoft JhengHei",serif;
+  --sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",-apple-system,sans-serif;
+  --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.85;
+  font-weight:300;
+  -webkit-font-smoothing:antialiased;
+  letter-spacing:.01em;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;
+  background-image:radial-gradient(rgba(107,74,53,.06) 1px,transparent 1px);
+  background-size:4px 4px;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+/* ---------- reading progress ---------- */
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--celadon),var(--amber),var(--chili));z-index:999;transition:width .1s linear}
+
+/* ---------- nav ---------- */
+nav{
+  position:sticky;top:0;z-index:90;
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  background:rgba(250,246,238,.82);
+  border-bottom:1px solid var(--line);
+}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:62px;gap:16px}
+.brand{font-family:var(--serif);font-weight:900;font-size:19px;letter-spacing:.12em;white-space:nowrap}
+.brand span{color:var(--chili)}
+nav ul{display:flex;gap:26px;list-style:none;font-size:13.5px;letter-spacing:.06em}
+nav a{text-decoration:none;color:var(--ink-soft);padding:4px 0;border-bottom:1px solid transparent;transition:.25s}
+nav a:hover{color:var(--chili);border-bottom-color:var(--chili)}
+@media(max-width:820px){nav ul{display:none}}
+
+/* ---------- hero ---------- */
+header.hero{position:relative;min-height:calc(100svh - 62px);display:flex;align-items:flex-end;overflow:hidden}
+header.hero .bg{position:absolute;inset:0}
+header.hero .bg img{width:100%;height:100%;object-fit:cover;transform:scale(1.04);animation:slowzoom 22s ease-in-out infinite alternate}
+@keyframes slowzoom{from{transform:scale(1.02)}to{transform:scale(1.10)}}
+header.hero .bg::after{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(180deg,rgba(20,16,12,.62) 0%,rgba(20,16,12,.15) 32%,rgba(20,16,12,.30) 62%,rgba(20,16,12,.88) 100%);
+}
+.hero-inner{position:relative;z-index:2;width:100%;padding-bottom:64px;padding-top:120px;color:#fdf9f2}
+.kicker{font-size:12px;letter-spacing:.42em;text-transform:uppercase;color:rgba(253,249,242,.72);margin-bottom:18px}
+h1{font-family:var(--serif);font-weight:900;font-size:clamp(56px,13vw,150px);line-height:.92;letter-spacing:.06em;text-shadow:0 2px 40px rgba(0,0,0,.35)}
+h1 .accent{color:#f0b95f}
+.hero-sub{font-family:var(--serif);font-size:clamp(17px,2.6vw,25px);margin-top:20px;letter-spacing:.14em;color:#f7e9d3}
+.hero-p{max-width:560px;margin-top:22px;font-size:15.5px;line-height:2;color:rgba(253,249,242,.85)}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.chip{
+  font-size:12.5px;letter-spacing:.08em;padding:7px 15px;border-radius:999px;
+  border:1px solid rgba(253,249,242,.35);color:#fdf9f2;background:rgba(253,249,242,.06);
+  backdrop-filter:blur(4px);
+}
+.photo-credit{margin-top:22px;font-size:11.5px;letter-spacing:.1em;color:rgba(253,249,242,.5)}
+.scroll-cue{position:absolute;bottom:22px;right:26px;z-index:3;font-size:10.5px;letter-spacing:.3em;color:rgba(253,249,242,.6);writing-mode:vertical-rl}
+.scroll-cue::after{content:"";display:block;width:1px;height:46px;background:rgba(253,249,242,.45);margin:12px auto 0;animation:drop 1.8s ease-in-out infinite}
+@keyframes drop{0%,100%{opacity:.2;transform:scaleY(.4)}50%{opacity:1;transform:scaleY(1)}}
+
+/* ---------- sections ---------- */
+section{padding:96px 0;position:relative;z-index:1}
+section.tint{background:var(--paper-2)}
+.sec-head{margin-bottom:52px;max-width:720px}
+.sec-no{font-family:var(--serif);font-size:13px;letter-spacing:.34em;color:var(--chili);display:flex;align-items:center;gap:14px}
+.sec-no::after{content:"";flex:1;height:1px;background:var(--line);max-width:110px}
+h2{font-family:var(--serif);font-weight:900;font-size:clamp(30px,4.4vw,46px);line-height:1.28;letter-spacing:.04em;margin-top:14px}
+h2 em{font-style:normal;color:var(--celadon-deep)}
+.lede{margin-top:18px;font-size:16px;color:var(--ink-soft);line-height:2.05}
+
+/* ---------- intro pillars ---------- */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:8px}
+.pillar{
+  background:#fff;border:1px solid var(--line);border-radius:4px;padding:30px 26px 28px;position:relative;
+  transition:.35s cubic-bezier(.2,.7,.2,1);
+}
+.pillar:hover{transform:translateY(-5px);box-shadow:0 22px 46px -28px rgba(36,31,26,.45);border-color:rgba(124,154,126,.5)}
+.pillar .num{font-family:var(--serif);font-size:11px;letter-spacing:.3em;color:var(--celadon-deep)}
+.pillar h3{font-family:var(--serif);font-size:22px;margin:12px 0 10px;letter-spacing:.05em}
+.pillar p{font-size:14px;color:var(--ink-soft);line-height:1.95}
+@media(max-width:800px){.pillars{grid-template-columns:1fr}}
+
+/* ---------- timeline ---------- */
+.tl{position:relative;margin-top:10px;padding-left:34px}
+.tl::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:1px;background:linear-gradient(180deg,var(--celadon),var(--amber),var(--chili))}
+.tl-item{position:relative;padding:0 0 42px 0}
+.tl-item:last-child{padding-bottom:0}
+.tl-item::before{
+  content:"";position:absolute;left:-33px;top:11px;width:13px;height:13px;border-radius:50%;
+  background:var(--paper);border:2px solid var(--celadon-deep);
+}
+.tl-item:nth-child(3)::before{border-color:var(--amber)}
+.tl-item:nth-child(4)::before{border-color:var(--chili)}
+.tl-era{font-family:var(--serif);font-size:12px;letter-spacing:.26em;color:var(--chili);margin-bottom:6px}
+.tl-item h3{font-family:var(--serif);font-size:21px;letter-spacing:.04em;margin-bottom:8px}
+.tl-item p{font-size:14.5px;color:var(--ink-soft);line-height:1.95;max-width:640px}
+.tag{display:inline-block;font-size:11px;letter-spacing:.12em;padding:2px 9px;border-radius:2px;margin-left:8px;vertical-align:2px;border:1px solid currentColor}
+.tag.legend{color:var(--amber)}
+.tag.fact{color:var(--celadon-deep)}
+
+/* ---------- fact cards ---------- */
+.facts{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:44px}
+.fact{background:#fff;border-left:3px solid var(--celadon);padding:22px 24px;border-radius:0 4px 4px 0}
+.fact h4{font-family:var(--serif);font-size:16px;letter-spacing:.06em;margin-bottom:7px}
+.fact p{font-size:13.5px;color:var(--ink-soft);line-height:1.9}
+@media(max-width:760px){.facts{grid-template-columns:1fr}}
+
+/* ---------- ingredients ---------- */
+.ing-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:start}
+.ing-figure{position:relative;border-radius:4px;overflow:hidden;box-shadow:0 30px 60px -40px rgba(36,31,26,.6)}
+.ing-figure img{width:100%;transition:transform .8s ease}
+.ing-figure:hover img{transform:scale(1.03)}
+.ing-table{width:100%;border-collapse:collapse;font-size:14.5px}
+.ing-table caption{
+  text-align:left;font-family:var(--serif);font-size:13px;letter-spacing:.22em;color:var(--celadon-deep);
+  padding-bottom:8px;
+}
+.ing-table th,.ing-table td{text-align:left;padding:11px 8px;border-bottom:1px dashed var(--line);vertical-align:top}
+.ing-table th{font-weight:500;width:34%;letter-spacing:.04em}
+.ing-table td{color:var(--ink-soft)}
+.ing-table tr:last-child th,.ing-table tr:last-child td{border-bottom:none}
+.ing-note{margin-top:26px;font-size:13px;color:var(--ink-soft);background:rgba(124,154,126,.12);padding:16px 18px;border-radius:4px;border-left:3px solid var(--celadon)}
+.ing-note b{color:var(--ink);font-weight:500}
+@media(max-width:860px){.ing-grid{grid-template-columns:1fr;gap:30px}}
+
+/* ---------- steps ---------- */
+.step{
+  display:grid;grid-template-columns:1.02fr .98fr;gap:46px;align-items:center;
+  padding:46px 0;border-bottom:1px solid var(--line);
+}
+.step:last-of-type{border-bottom:none}
+.step:nth-child(even) .step-media{order:2}
+.step-media{position:relative;border-radius:4px;overflow:hidden;box-shadow:0 26px 54px -38px rgba(36,31,26,.55)}
+.step-media img{width:100%;transition:transform .9s ease}
+.step:hover .step-media img{transform:scale(1.035)}
+.step-no{
+  font-family:var(--serif);font-weight:900;font-size:64px;line-height:1;color:rgba(107,74,53,.16);
+  letter-spacing:-.02em;
+}
+.step h3{font-family:var(--serif);font-size:clamp(22px,2.8vw,29px);letter-spacing:.05em;margin:4px 0 14px}
+.step p{font-size:15px;color:var(--ink-soft);line-height:2.05}
+.step-time{display:inline-block;font-size:11.5px;letter-spacing:.16em;color:var(--clay);border:1px solid var(--line);border-radius:999px;padding:3px 12px;margin-bottom:14px}
+.tip{
+  margin-top:18px;font-size:13.5px;line-height:1.95;padding:14px 16px 14px 18px;
+  background:#fff;border-left:2px solid var(--amber);border-radius:0 3px 3px 0;color:var(--ink-soft);
+}
+.tip b{color:var(--chili);font-weight:500;letter-spacing:.06em;font-size:11.5px;display:block;margin-bottom:3px}
+@media(max-width:840px){
+  .step{grid-template-columns:1fr;gap:24px;padding:38px 0}
+  .step:nth-child(even) .step-media{order:0}
+}
+
+/* ---------- video ---------- */
+.vid-frame{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:4px;background:#1a1612;box-shadow:0 34px 70px -45px rgba(0,0,0,.7)}
+.vid-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vid-meta{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:flex-start;margin-top:22px}
+.vid-meta p{font-size:13.5px;color:var(--ink-soft);max-width:600px}
+.btn{
+  display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-size:13px;letter-spacing:.1em;
+  padding:12px 22px;border:1px solid var(--ink);border-radius:999px;transition:.3s;background:transparent;cursor:pointer;
+  font-family:var(--sans);color:var(--ink);
+}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.solid{background:var(--chili);border-color:var(--chili);color:#fff}
+.btn.solid:hover{background:#a52f22;border-color:#a52f22}
+
+/* ---------- mistakes ---------- */
+.mist{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid var(--line);margin-top:14px}
+.mist-item{padding:28px 30px 28px 0;border-bottom:1px solid var(--line)}
+.mist-item:nth-child(odd){padding-right:44px;border-right:1px solid var(--line)}
+.mist-item:nth-child(even){padding-left:44px}
+.mist-item .q{font-family:var(--serif);font-size:16.5px;letter-spacing:.04em;margin-bottom:8px;color:var(--ink)}
+.mist-item .q::before{content:"× ";color:var(--chili);font-weight:900}
+.mist-item .a{font-size:13.8px;color:var(--ink-soft);line-height:1.95}
+.mist-item .a::before{content:"→ ";color:var(--celadon-deep)}
+@media(max-width:760px){
+  .mist{grid-template-columns:1fr}
+  .mist-item:nth-child(odd){border-right:none;padding-right:0}
+  .mist-item:nth-child(even){padding-left:0}
+}
+
+/* ---------- quiz ---------- */
+.quiz-shell{background:#fff;border:1px solid var(--line);border-radius:6px;overflow:hidden;box-shadow:0 40px 80px -60px rgba(36,31,26,.55)}
+.quiz-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 30px;border-bottom:1px solid var(--line);background:var(--paper)}
+.qcount{font-family:var(--serif);font-size:13px;letter-spacing:.2em;color:var(--ink-soft)}
+.qcount b{color:var(--chili);font-size:16px}
+.dots{display:flex;gap:7px}
+.dot{width:7px;height:7px;border-radius:50%;background:rgba(36,31,26,.16);transition:.3s}
+.dot.on{background:var(--celadon-deep);transform:scale(1.35)}
+.dot.ok{background:var(--celadon)}
+.dot.no{background:var(--chili)}
+.quiz-body{padding:36px 34px 34px;min-height:330px}
+.qtext{font-family:var(--serif);font-size:clamp(19px,2.4vw,24px);line-height:1.6;letter-spacing:.03em;margin-bottom:26px}
+.opts{display:grid;gap:10px}
+.opt{
+  display:flex;align-items:flex-start;gap:14px;text-align:left;width:100%;cursor:pointer;
+  background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:15px 18px;
+  font-family:var(--sans);font-size:14.6px;color:var(--ink);line-height:1.7;transition:.22s;
+}
+.opt:hover:not(:disabled){border-color:var(--celadon);background:#fff;transform:translateX(3px)}
+.opt .k{
+  flex:0 0 24px;height:24px;border-radius:50%;border:1px solid rgba(36,31,26,.28);
+  display:grid;place-items:center;font-size:11.5px;letter-spacing:0;color:var(--ink-soft);margin-top:1px;
+}
+.opt.correct{border-color:var(--celadon-deep);background:rgba(124,154,126,.16)}
+.opt.correct .k{background:var(--celadon-deep);border-color:var(--celadon-deep);color:#fff}
+.opt.wrong{border-color:var(--chili);background:rgba(192,57,43,.08)}
+.opt.wrong .k{background:var(--chili);border-color:var(--chili);color:#fff}
+.opt:disabled{cursor:default}
+.explain{margin-top:22px;padding:18px 20px;background:var(--paper-2);border-left:3px solid var(--celadon-deep);border-radius:0 3px 3px 0;font-size:14px;line-height:1.95;color:var(--ink-soft);display:none}
+.explain.show{display:block;animation:fade .4s ease}
+.explain b{color:var(--ink);font-weight:500}
+.quiz-foot{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:0 34px 34px}
+.score-live{font-size:13px;letter-spacing:.1em;color:var(--ink-soft)}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+.result{display:none;text-align:center;padding:16px 10px 6px}
+.result.show{display:block;animation:fade .5s ease}
+.ring{width:150px;height:150px;margin:0 auto 20px;position:relative}
+.ring svg{transform:rotate(-90deg)}
+.ring .val{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--serif);font-size:34px;font-weight:900}
+.ring .val small{font-size:13px;font-weight:400;color:var(--ink-soft);display:block;text-align:center;letter-spacing:.1em}
+.result h3{font-family:var(--serif);font-size:26px;letter-spacing:.06em;margin-bottom:10px}
+.result p{font-size:14.5px;color:var(--ink-soft);max-width:460px;margin:0 auto 22px;line-height:2}
+
+/* ---------- footer ---------- */
+footer{padding:70px 0 46px;border-top:1px solid var(--line);background:var(--paper-2);position:relative;z-index:1}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+footer h4{font-family:var(--serif);font-size:14px;letter-spacing:.2em;margin-bottom:14px;color:var(--celadon-deep)}
+footer p,footer li{font-size:12.8px;color:var(--ink-soft);line-height:1.95}
+footer ul{list-style:none}
+footer li{margin-bottom:7px;padding-left:12px;position:relative}
+footer li::before{content:"";position:absolute;left:0;top:11px;width:4px;height:1px;background:var(--clay)}
+footer a{color:var(--ink-soft);text-decoration:none;border-bottom:1px solid rgba(36,31,26,.2)}
+footer a:hover{color:var(--chili);border-bottom-color:var(--chili)}
+.copy{margin-top:46px;padding-top:22px;border-top:1px solid var(--line);font-size:11.5px;letter-spacing:.08em;color:rgba(36,31,26,.5);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media(max-width:760px){.foot-grid{grid-template-columns:1fr}}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none}
+  header.hero .bg img{animation:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">酸菜<span>魚</span></div>
+    <ul>
+      <li><a href="#origin">歷史</a></li>
+      <li><a href="#ingredients">材料</a></li>
+      <li><a href="#method">做法</a></li>
+      <li><a href="#video">影片</a></li>
+      <li><a href="#quiz">測驗</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="bg"><img src="assets/hero.jpg" alt="一鍋酸菜魚：木碗盛著金黃酸湯、白嫩魚片、酸菜、豆腐與寬粉"></div>
+  <div class="hero-inner wrap">
+    <div class="kicker">Suan Cai Yu · 重慶江湖菜</div>
+    <h1>酸菜<span class="accent">魚</span></h1>
+    <div class="hero-sub">一鍋酸香，魚片滑如絹</div>
+    <p class="hero-p">
+      酸、香、麻、辣，四樣夾埋一齊，最後用一勺滾油「滋啦」一聲叫醒所有香氣。
+      這頁由你影的那一鍋開始：先講它的來歷，再逐步教你煮，最後出題考你。
+    </p>
+    <div class="hero-meta">
+      <span class="chip">起源 · 重慶江津</span>
+      <span class="chip">4 人份</span>
+      <span class="chip">約 45 分鐘</span>
+      <span class="chip">難度 · 中等</span>
+    </div>
+    <div class="photo-credit">主圖：你拍的這一鍋 · 木碗、豆腐、寬粉版本</div>
+  </div>
+  <div class="scroll-cue">向下滑</div>
+</header>
+
+<section id="intro">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-no">00 — 先講重點</div>
+      <h2>酸菜魚，其實是<em>三件事</em>的總和</h2>
+      <p class="lede">
+        很多人以為酸菜魚難，是因為把它當成「煮魚」。其實它是三個獨立工序疊起來：
+        處理酸菜、處理魚片、處理湯。任何一環做錯，整鍋都會走樣——所以先記住這三根柱。
+      </p>
+    </div>
+    <div class="pillars">
+      <div class="pillar rv">
+        <div class="num">01 / 酸</div>
+        <h3>酸菜要「炒醒」</h3>
+        <p>四川泡青菜沖洗、擠乾，再落白鑊炒走水氣，最後用油炒香。酸味才會由「死酸」變成「酸得有層次」，口感亦由韌變脆。</p>
+      </div>
+      <div class="pillar rv">
+        <div class="num">02 / 滑</div>
+        <h3>魚片要「上漿」</h3>
+        <p>鹽、蛋白、生粉順一個方向抓到起膠，冷藏 15 分鐘。這層漿就是魚片的保護衣，落鍋才不會散、不會老。</p>
+      </div>
+      <div class="pillar rv">
+        <div class="num">03 / 厚</div>
+        <h3>湯要「先煎後滾」</h3>
+        <p>魚骨煎香，撞入滾水大火滾 10 分鐘，湯色才會奶白。之後才落酸菜同魚片，順序錯了湯就薄。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="origin" class="tint">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-no">01 — 歷史與產地</div>
+      <h2>由江邊一條<em>賣剩的小魚</em>說起</h2>
+      <p class="lede">
+        酸菜魚是重慶菜，不是成都菜；是「江湖菜」，不是廟堂菜。它的起源沒有唯一答案，
+        流傳最廣的有兩個版本，一個關於漁夫，一個關於餐館老闆——兩個都指向同一個地方：長江邊的江津。
+      </p>
+    </div>
+
+    <div class="tl">
+      <div class="tl-item rv">
+        <div class="tl-era">源頭 · 民間習慣</div>
+        <h3>先有泡菜，後有酸菜魚<span class="tag fact">有記載</span></h3>
+        <p>
+          四川民間習慣在初冬用青菜醃漬成酸菜，放入大瓦缸貯存，隨用隨取，一直食到來年夏天。
+          當地人本來就常用酸菜配雞、鴨、豬、魚做湯菜——酸菜魚的「酸」，其實來自這罈家家戶戶都有的泡菜。
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-era">起源說法一 · 江津江村</div>
+        <h3>漁夫用賣剩的小魚，換農家的酸菜<span class="tag legend">傳說</span></h3>
+        <p>
+          相傳江津江邊的漁夫，把捕到的大魚拿去賣錢，賣剩賣不出的細魚，就拿去跟江邊農家換醃好的酸菜。
+          漁夫在船上把酸菜同鮮魚一齊煮成湯——酸菜吸了魚鮮，魚肉沾了酸香，據說這就是最早的酸菜魚。
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-era">起源說法二 · 江津雙福鎮</div>
+        <h3>鄒開喜把「酸蘿蔔鯽魚」改了兩樣東西<span class="tag legend">流傳最廣</span></h3>
+        <p>
+          另一說（亦是今天最普遍的說法）指向江津雙福鎮人鄒開喜。他把當地的「酸蘿蔔鯽魚」改良：
+          酸蘿蔔換成泡青菜（即酸菜），鯽魚換成草魚。兩個改動——酸味更清、魚肉更多更厚——就定下了今日酸菜魚的樣子。
+          江津至今仍有以他為名的酸菜魚字號。
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-era">1980s–1990s · 重慶</div>
+        <h3>由家常菜變成「江湖菜」<span class="tag fact">有記載</span></h3>
+        <p>
+          重慶碼頭文化孕育了所謂「江湖菜」：不講究排場，講究大盆、大油、大酸大辣，鑊氣要夠。
+          酸菜魚正是在這種環境下由家常菜走進餐館，成為川菜館的招牌，再隨川菜師傅走向全國。
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-era">2015 · 全國</div>
+        <h3>太二酸菜魚：由「一道菜」變成「一個品類」<span class="tag fact">有記載</span></h3>
+        <p>
+          九毛九集團在 2015 年創立「太二酸菜魚」，以老壇子酸菜魚作單品主打，把酸菜魚標準化、連鎖化。
+          之後香港、台灣、東南亞陸續出現酸菜魚專門店，酸菜魚正式由一道川菜，變成一個獨立餐飲品類。
+        </p>
+      </div>
+    </div>
+
+    <div class="facts">
+      <div class="fact rv">
+        <h4>產地：重慶江津</h4>
+        <p>江津位於重慶西南部、長江邊，是重慶江湖菜的重要碼頭之一。酸菜魚的兩個起源傳說，都指向這裡的江村與雙福鎮。</p>
+      </div>
+      <div class="fact rv">
+        <h4>「酸菜」到底是什麼菜</h4>
+        <p>是四川泡青菜（芥菜類），經乳酸發酵而成，酸香帶脆。不是東北酸白菜，也不是韓國泡菜——用錯了，酸味與口感完全不同。</p>
+      </div>
+      <div class="fact rv">
+        <h4>跟水煮魚的分別</h4>
+        <p>酸菜魚是先把泡椒、薑、酸菜炒香，再落湯煮魚；水煮魚則是魚片焯熟後，把炒過乾辣椒、花椒的滾油澆上去。一個重湯，一個重油。</p>
+      </div>
+      <div class="fact rv">
+        <h4>「江湖菜」是什麼</h4>
+        <p>指重慶、四川一帶源自碼頭與街邊小館的菜式：用料豪邁、味型濃烈、不拘賣相。酸菜魚、來鳳魚、毛血旺都屬於這一脈。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ingredients">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-no">02 — 材料</div>
+      <h2>四人份，一鍋到底</h2>
+      <p class="lede">
+        傳統用草魚，肉厚但骨多；家庭最易上手是鱸魚，肉厚、細骨少、價錢穩定。
+        香港街市買「鱸魚」或「金鼓」都可以，懶一點直接買急凍魚柳亦得，重點是<strong>厚身</strong>。
+      </p>
+    </div>
+
+    <div class="ing-grid">
+      <figure class="ing-figure rv">
+        <img src="assets/ingredients.jpg" alt="酸菜魚材料：魚柳、酸菜、乾辣椒、花椒、薑、蒜、蛋白、生粉、上湯、蔥">
+      </figure>
+
+      <div class="rv">
+        <table class="ing-table">
+          <caption>主料</caption>
+          <tr><th>鱸魚</th><td>1 條，約 900–1000g（或急凍魚柳 600g）</td></tr>
+          <tr><th>四川酸菜</th><td>300g（泡青菜；超市酸菜魚料包亦可，但要多沖水）</td></tr>
+        </table>
+
+        <table class="ing-table" style="margin-top:26px">
+          <caption>醃魚</caption>
+          <tr><th>鹽</th><td>3g（約半茶匙）</td></tr>
+          <tr><th>白胡椒粉</th><td>少許</td></tr>
+          <tr><th>蛋白</th><td>1 個</td></tr>
+          <tr><th>生粉（粟粉）</th><td>2 湯匙</td></tr>
+          <tr><th>油</th><td>1 湯匙，最後封面</td></tr>
+        </table>
+
+        <table class="ing-table" style="margin-top:26px">
+          <caption>湯底與香料</caption>
+          <tr><th>魚骨、魚頭</th><td>起肉後全部留用</td></tr>
+          <tr><th>雞湯或清水</th><td>900ml</td></tr>
+          <tr><th>泡椒</th><td>6–8 隻，切段</td></tr>
+          <tr><th>薑</th><td>5 片（有泡薑更好）</td></tr>
+          <tr><th>蒜</th><td>6 瓣，拍碎</td></tr>
+          <tr><th>乾辣椒</th><td>8 隻</td></tr>
+          <tr><th>花椒</th><td>1 茶匙</td></tr>
+          <tr><th>糖 / 鹽 / 白醋</th><td>糖 1 茶匙、鹽適量、白醋 1 茶匙後備</td></tr>
+        </table>
+
+        <table class="ing-table" style="margin-top:26px">
+          <caption>最後淋油</caption>
+          <tr><th>蒜蓉</th><td>3 瓣</td></tr>
+          <tr><th>花椒 + 乾辣椒碎</th><td>各半茶匙</td></tr>
+          <tr><th>花生油或菜油</th><td>3 湯匙</td></tr>
+          <tr><th>芫荽、蔥花</th><td>適量</td></tr>
+        </table>
+
+        <div class="ing-note">
+          <b>選料一句話：</b>酸菜要「黃中帶綠、聞落有酸香不刺鼻」；魚要「按下去彈手」；
+          花椒要「一捏就散、麻味衝鼻」。三樣加起來，這鍋已經贏了一半。
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="method" class="tint">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-no">03 — 做法</div>
+      <h2>六步，由一條魚到一鍋<em>金湯</em></h2>
+      <p class="lede">
+        全程約 45 分鐘，其中 15 分鐘是魚片冷藏上漿的時間——可以趁機處理酸菜。
+        以下六步按實際落鑊順序排列，跟住做就可以。
+      </p>
+    </div>
+
+    <div class="step rv">
+      <div class="step-media"><img src="assets/step1-slice.jpg" alt="用中式菜刀把魚柳斜切成薄魚片"></div>
+      <div>
+        <div class="step-no">01</div>
+        <span class="step-time">約 10 分鐘</span>
+        <h3>片魚：斜刀薄片，一刀到底</h3>
+        <p>
+          魚起肉後，魚骨、魚頭斬件留用，不要丟——那是湯色的來源。
+          魚柳斜刀切成約 3–4mm 厚的薄片，太大塊的可以再片薄一半。
+          切的時候一刀到底，不要前後拉鋸，切口才會靚、魚片才不會起毛。
+        </p>
+        <div class="tip"><b>小貼士</b>魚肉先放冰格雪 20 分鐘至微硬，會好切好多，片出來厚薄更一致。太厚會外老內生，太薄一落鍋就散。</div>
+      </div>
+    </div>
+
+    <div class="step rv">
+      <div class="step-media"><img src="assets/step2-marinate.jpg" alt="魚片加蛋白與生粉抓拌上漿"></div>
+      <div>
+        <div class="step-no">02</div>
+        <span class="step-time">15 分鐘</span>
+        <h3>上漿：先洗、後抓、再封油</h3>
+        <p>
+          魚片用淡鹽水輕輕抓洗一兩分鐘，洗到略為透明，沖淨、徹底瀝乾。
+          加鹽、白胡椒粉，順同一個方向抓到起膠；加蛋白拌勻，再加生粉裹薄薄一層；
+          最後淋一湯匙油拌勻封面，入雪櫃冷藏 15 分鐘。
+        </p>
+        <div class="tip"><b>小貼士</b>水分一定要瀝乾，否則漿會「甩」；抓拌只可同一個方向，反方向攪會把魚肉纖維扯斷，落鍋即碎。</div>
+      </div>
+    </div>
+
+    <div class="step rv">
+      <div class="step-media"><img src="assets/step3-fry.jpg" alt="鐵鑊中炒香酸菜、蒜、乾辣椒"></div>
+      <div>
+        <div class="step-no">03</div>
+        <span class="step-time">約 8 分鐘</span>
+        <h3>炒酸菜：先白鑊烘乾，再落油炒香</h3>
+        <p>
+          酸菜沖洗兩三次、浸 10 分鐘去過鹹，用力擠乾水分，切段。
+          白鑊（不落油）中火炒 3–4 分鐘，把水氣炒走、炒出酸香，盛起。
+          鑊落油，爆香薑、蒜、泡椒、乾辣椒、花椒，再落酸菜炒約 2 分鐘。
+        </p>
+        <div class="tip"><b>小貼士</b>這一步決定整鍋的層次。跳過「白鑊烘乾」，湯會水汪汪、酸味死實；炒香之後酸味才會圓潤。</div>
+      </div>
+    </div>
+
+    <div class="step rv">
+      <div class="step-media"><img src="assets/step4-broth.jpg" alt="砂鍋中奶白色的魚湯正在滾"></div>
+      <div>
+        <div class="step-no">04</div>
+        <span class="step-time">約 15 分鐘</span>
+        <h3>熬湯：魚骨煎香，撞滾水大火滾</h3>
+        <p>
+          同一隻鑊補少許油，把魚骨、魚頭煎至兩面金黃，然後<strong>撞入滾水</strong>，
+          大火滾 8–10 分鐘至湯色奶白。加入炒好的酸菜再煮 5 分鐘，
+          用糖、鹽調味，試味後有需要加一茶匙白醋提酸。
+        </p>
+        <div class="tip"><b>小貼士</b>一定要用滾水、一定要大火。落冷水會令蛋白質收縮，湯變清之餘還帶腥。想更濃可以加兩片金華火腿或一小塊瘦肉同熬。</div>
+      </div>
+    </div>
+
+    <div class="step rv">
+      <div class="step-media"><img src="assets/step5-poach.jpg" alt="筷子把魚片放入微滾的湯中"></div>
+      <div>
+        <div class="step-no">05</div>
+        <span class="step-time">1 分鐘</span>
+        <h3>汆魚片：蝦眼水，不攪動</h3>
+        <p>
+          轉最小火，讓湯保持「蝦眼水」——微微冒泡、但不翻滾。
+          魚片逐片攤開放入，不要一次倒進去，也不要即刻攪動。
+          約 30–40 秒，魚片轉白、邊緣微微捲起即撈起，鋪在湯面。
+        </p>
+        <div class="tip"><b>小貼士</b>大火翻滾會把魚片表面的漿沖散，結果又老又碎。每次最多落 8 片，分兩三批，湯溫才不會急降。</div>
+      </div>
+    </div>
+
+    <div class="step rv">
+      <div class="step-media"><img src="assets/step6-oil.jpg" alt="滾油淋在蒜蓉、花椒與乾辣椒上，冒出香氣"></div>
+      <div>
+        <div class="step-no">06</div>
+        <span class="step-time">2 分鐘</span>
+        <h3>淋油：一勺滾油，叫醒所有香氣</h3>
+        <p>
+          魚片上鋪蒜蓉、乾辣椒碎、花椒。另起小鍋燒 3 湯匙油至微微冒煙（約 180°C），
+          一口氣淋在香料上，「滋啦」一聲，香氣即刻爆出來。最後撒芫荽、蔥花，趁熱上桌。
+        </p>
+        <div class="tip"><b>小貼士</b>油不夠熱，蒜蓉會生澀、花椒不香；油太熱則會焦苦。見到油面起波紋、丟一粒蒜蓉下去立即浮起有聲，就是時機。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="video">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-no">04 — 影片</div>
+      <h2>跟片做，手感最實在</h2>
+      <p class="lede">
+        文字講「蝦眼水」、「起膠」始終抽象，看一次真人操作，很多細節一眼就明。
+        以下影片由第三方頻道製作，版權屬原頻道所有。
+      </p>
+    </div>
+
+    <div class="rv">
+      <div class="vid-frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/hM9guBvJRZ0?rel=0"
+          title="酸菜魚做法教學影片"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="vid-meta">
+        <p>
+          <strong>《這才是「酸菜魚」的正宗做法，大廚詳細講解》</strong>— 董小廚家常菜（YouTube）。
+          由片魚、上漿到淋油完整示範，適合第一次做的人跟著看一次。
+        </p>
+        <a class="btn" href="https://www.youtube.com/watch?v=hM9guBvJRZ0" target="_blank" rel="noopener">在 YouTube 開啟</a>
+      </div>
+    </div>
+
+    <div class="vid-meta rv" style="margin-top:34px;border-top:1px solid var(--line);padding-top:26px">
+      <p>
+        <strong>另一條參考：</strong>《在家輕鬆做出酸菜魚，做法詳細》— 亞東家常菜。
+        這條偏向家庭簡化版，步驟較短，適合趕時間。
+      </p>
+      <a class="btn" href="https://www.youtube.com/watch?v=0BCzWWkCdyY" target="_blank" rel="noopener">開啟第二條影片</a>
+    </div>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-no">05 — 常見失敗</div>
+      <h2>六個最常出事的位</h2>
+      <p class="lede">做壞一鍋酸菜魚，通常不是調味問題，而是這六個工序細節。</p>
+    </div>
+    <div class="mist">
+      <div class="mist-item rv">
+        <div class="q">魚片一落鍋就散</div>
+        <div class="a">水分未瀝乾、生粉太少，或者湯在大滾時落魚片。瀝乾、夠漿、轉小火，三樣做齊就不會散。</div>
+      </div>
+      <div class="mist-item rv">
+        <div class="q">湯是清的，不夠奶白</div>
+        <div class="a">魚骨沒煎香，或者加了冷水。煎至金黃再撞滾水，大火滾 10 分鐘，湯自然白。</div>
+      </div>
+      <div class="mist-item rv">
+        <div class="q">只有死酸，沒有香</div>
+        <div class="a">酸菜沒炒過。白鑊烘乾水氣、再用油炒香，酸味才有層次；最後可以一茶匙白醋補酸。</div>
+      </div>
+      <div class="mist-item rv">
+        <div class="q">魚肉又老又嚡</div>
+        <div class="a">煮太久。魚片轉白即可，30–40 秒足夠；上桌後湯的餘溫還會繼續煮熟它。</div>
+      </div>
+      <div class="mist-item rv">
+        <div class="q">腥味壓不住</div>
+        <div class="a">魚片要先用淡鹽水抓洗去血水；魚骨要煎透；薑、白胡椒不能省。三管齊下就沒有腥。</div>
+      </div>
+      <div class="mist-item rv">
+        <div class="q">太鹹</div>
+        <div class="a">酸菜本身的鹽分差異很大。沖洗、浸 10 分鐘、擠乾，之後試味才落鹽；有糖可以救，太鹹就加湯。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="quiz">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="sec-no">06 — 互動測驗</div>
+      <h2>考吓你：識唔識整？</h2>
+      <p class="lede">
+        九道題，涵蓋歷史與工序。每答完一題會即刻講解，答錯不要緊——錯的那一條，通常就是你下次會失手的地方。
+      </p>
+    </div>
+
+    <div class="quiz-shell rv">
+      <div class="quiz-top">
+        <div class="qcount">第 <b id="qNow">1</b> / 9 題</div>
+        <div class="dots" id="dots"></div>
+        <div class="score-live" id="liveScore">得分 0</div>
+      </div>
+
+      <div class="quiz-body" id="quizBody">
+        <div class="qtext" id="qText"></div>
+        <div class="opts" id="opts"></div>
+        <div class="explain" id="explain"></div>
+      </div>
+
+      <div class="quiz-foot">
+        <span class="score-live" id="hint">選一個答案</span>
+        <button class="btn" id="nextBtn" disabled>下一題</button>
+      </div>
+
+      <div class="result" id="result">
+        <div class="ring">
+          <svg width="150" height="150" viewBox="0 0 150 150">
+            <circle cx="75" cy="75" r="64" fill="none" stroke="rgba(36,31,26,.1)" stroke-width="9"/>
+            <circle id="ringFg" cx="75" cy="75" r="64" fill="none" stroke="var(--celadon-deep)" stroke-width="9"
+                    stroke-linecap="round" stroke-dasharray="402" stroke-dashoffset="402"
+                    style="transition:stroke-dashoffset 1s ease"/>
+          </svg>
+          <div class="val"><div><span id="finalScore">0</span><small>／ 9</small></div></div>
+        </div>
+        <h3 id="gradeTitle"></h3>
+        <p id="gradeText"></p>
+        <button class="btn solid" id="retryBtn">再試一次</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <h4>關於這頁</h4>
+        <p>
+          一個關於酸菜魚的單頁網站：歷史、產地、六步做法、影片與互動測驗。
+          純靜態 HTML，無後端、無追蹤，可直接存檔或列印。
+        </p>
+        <p style="margin-top:14px">
+          食譜份量以四人計，可按人數增減。不同地區的酸菜鹹度差異很大，
+          調味請以試味為準，不要只信數字。
+        </p>
+      </div>
+      <div>
+        <h4>資料來源</h4>
+        <ul>
+          <li><a href="https://zh.wikipedia.org/wiki/%E9%85%B8%E8%8F%9C%E9%AD%9A" target="_blank" rel="noopener">維基百科 · 酸菜魚</a>（起源、用料、與水煮魚之別）</li>
+          <li><a href="https://www.sohu.com/a/563671545_121222454" target="_blank" rel="noopener">搜狐 · 酸菜鱼为什么火遍全国大街小巷</a>（江湖菜與起源說法）</li>
+          <li><a href="https://thebambooworks.com/cn/%E5%A4%AA%E4%BA%8C%E9%85%B8%E8%8F%9C%E9%B1%BC%E4%B8%9A%E7%BB%A9%E5%A4%A7%E5%A2%9E-%E4%B9%9D%E6%AF%9B%E4%B9%9D%E5%B0%9D%E6%88%90%E5%8A%9F%E6%BB%8B%E5%91%B3/" target="_blank" rel="noopener">Bamboo Works · 太二酸菜魚與九毛九</a>（2015 年創立、連鎖化）</li>
+          <li><a href="https://www.youtube.com/watch?v=hM9guBvJRZ0" target="_blank" rel="noopener">YouTube · 董小廚家常菜</a>（做法示範）</li>
+        </ul>
+        <p style="margin-top:14px;opacity:.8">
+          註：酸菜魚的起源並無唯一可考的答案，頁內兩個故事屬民間流傳，已標示為「傳說」。
+        </p>
+      </div>
+    </div>
+    <div class="copy">
+      <span>酸菜魚 · 一鍋酸香，魚片滑如絹</span>
+      <span>主圖為實拍照片；步驟插畫為 AI 生成之食譜插圖</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* ---------- reading progress ---------- */
+  var bar = document.getElementById('bar');
+  function onScroll(){
+    var h = document.documentElement;
+    var p = h.scrollTop / (h.scrollHeight - h.clientHeight);
+    bar.style.width = Math.min(100, Math.max(0, p * 100)) + '%';
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ---------- reveal ---------- */
+  var rvs = document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, {threshold:.12, rootMargin:'0px 0px -60px 0px'});
+    rvs.forEach(function(el){ io.observe(el); });
+  } else {
+    rvs.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* ---------- quiz data ---------- */
+  var QS = [
+    {
+      q:'酸菜魚用的「酸菜」，正宗來說是哪一種？',
+      o:['東北酸白菜','四川泡青菜（芥菜類）','韓國泡菜','梅菜'],
+      a:1,
+      e:'<b>四川泡青菜</b>，以芥菜類經乳酸發酵而成，酸香帶脆。東北酸白菜與韓國泡菜是另一套發酵路線，酸味與口感都不同，用錯了整鍋味型就走樣。'
+    },
+    {
+      q:'酸菜魚公認的發源地是哪裡？',
+      o:['成都','長沙','重慶江津','廣州'],
+      a:2,
+      e:'<b>重慶江津</b>。它是重慶菜、屬「江湖菜」一脈，兩個最廣為流傳的起源故事都指向江津的江村與雙福鎮，而不是成都。'
+    },
+    {
+      q:'以下哪一個是江津流傳的起源故事？',
+      o:['漁夫把賣剩的小魚，跟江邊農家換酸菜煮湯','御廚避難時把宮廷配方帶到江邊','船民把整罈酸菜倒進火鍋裡','外國傳教士引入酸菜配魚的吃法'],
+      a:0,
+      e:'漁夫把大魚賣錢，賣不出的細魚拿去換酸菜，在船上把酸菜與鮮魚一齊煮成湯——這是流傳最廣的民間說法，屬<b>傳說</b>，沒有確切文獻可考。'
+    },
+    {
+      q:'相傳鄒開喜把「酸蘿蔔鯽魚」改良成酸菜魚，他換掉了哪兩樣？',
+      o:['酸菜換成酸蘿蔔、草魚換成鯽魚','辣椒換成花椒、薑換成蒜','酸蘿蔔換成泡青菜、鯽魚換成草魚','豬肉換成魚、醋換成檸檬'],
+      a:2,
+      e:'他把<b>酸蘿蔔換成泡青菜（酸菜）</b>、<b>鯽魚換成草魚</b>。酸味更清、魚肉更厚，這兩個改動就定下了今日酸菜魚的基本樣貌。'
+    },
+    {
+      q:'魚片為甚麼要「上漿」（蛋白＋生粉）？',
+      o:['鎖住水分，令魚片滑嫩、落鍋不易散','令魚片快一點熟','增加重量，看起來更大片','去除魚腥味'],
+      a:0,
+      e:'蛋白與生粉在魚片表面形成一層保護膜，<b>鎖住水分</b>。加鹽抓到起膠，蛋白質才會結合水分，所以順序是鹽 → 蛋白 → 生粉 → 封油。'
+    },
+    {
+      q:'汆魚片時，湯應該保持甚麼狀態？',
+      o:['大滾翻騰','微滾，即俗稱的「蝦眼水」','完全靜止不動','冰水冷泡'],
+      a:1,
+      e:'要<b>微滾</b>：湯面微微冒泡但不翻滾。大滾會把魚片表面的漿沖散，魚片又老又碎；水溫太低則漿會溶掉，魚片一樣散。'
+    },
+    {
+      q:'想湯色奶白，最關鍵的一步是？',
+      o:['加少許牛奶','加生粉水勾芡','魚骨煎香後撞入滾水，大火滾','加豉油調色'],
+      a:2,
+      e:'<b>魚骨煎至金黃，撞入滾水，大火滾 8–10 分鐘</b>。油脂與蛋白質在劇烈沸騰中乳化，湯自然奶白。落冷水會令蛋白質收縮，湯變清還帶腥。'
+    },
+    {
+      q:'最後淋一勺滾油，作用是甚麼？',
+      o:['逼出蒜蓉、花椒、辣椒的香氣','純粹令湯更熱','令魚片更滑','殺菌消毒'],
+      a:0,
+      e:'滾油（約 180°C）淋在蒜蓉、花椒、乾辣椒上，<b>把脂溶性香氣逼出來</b>，同時令花椒的麻更突出。油溫不夠會生澀，過熱則焦苦。'
+    },
+    {
+      q:'酸菜魚與水煮魚，做法上最大的分別是？',
+      o:['酸菜魚最後把滾油澆在魚片上，水煮魚先炒酸菜煮湯','兩者做法完全相同，只是名字不同','酸菜魚先炒酸菜再煮湯，水煮魚則把炒過辣椒花椒的滾油澆在魚片上','水煮魚不放辣椒'],
+      a:2,
+      e:'<b>酸菜魚重湯</b>：先炒泡椒、薑、酸菜，再落湯煮魚。<b>水煮魚重油</b>：魚片焯熟後，把炒過乾辣椒、花椒的滾油澆上去。一個喝湯，一個吃油香。'
+    }
+  ];
+
+  var i = 0, score = 0, locked = false;
+  var qText = document.getElementById('qText'),
+      optsEl = document.getElementById('opts'),
+      explain = document.getElementById('explain'),
+      nextBtn = document.getElementById('nextBtn'),
+      hint = document.getElementById('hint'),
+      liveScore = document.getElementById('liveScore'),
+      qNow = document.getElementById('qNow'),
+      dotsEl = document.getElementById('dots'),
+      body = document.getElementById('quizBody'),
+      foot = document.querySelector('.quiz-foot'),
+      result = document.getElementById('result');
+
+  /* dots */
+  QS.forEach(function(){ var d = document.createElement('span'); d.className='dot'; dotsEl.appendChild(d); });
+  var dots = dotsEl.children;
+
+  function render(){
+    locked = false;
+    var q = QS[i];
+    qNow.textContent = i + 1;
+    qText.textContent = q.q;
+    explain.className = 'explain';
+    explain.innerHTML = '';
+    nextBtn.disabled = true;
+    nextBtn.textContent = (i === QS.length - 1) ? '看成績' : '下一題';
+    hint.textContent = '選一個答案';
+    optsEl.innerHTML = '';
+    var keys = ['A','B','C','D'];
+    q.o.forEach(function(text, idx){
+      var b = document.createElement('button');
+      b.className = 'opt';
+      b.type = 'button';
+      b.innerHTML = '<span class="k">' + keys[idx] + '</span><span>' + text + '</span>';
+      b.addEventListener('click', function(){ choose(idx); });
+      optsEl.appendChild(b);
+    });
+    Array.prototype.forEach.call(dots, function(d, k){
+      if(k === i) d.className = 'dot on';
+      else if(k > i) d.className = 'dot';
+    });
+  }
+
+  function choose(idx){
+    if(locked) return;
+    locked = true;
+    var q = QS[i];
+    var btns = optsEl.children;
+    Array.prototype.forEach.call(btns, function(b, k){
+      b.disabled = true;
+      if(k === q.a) b.classList.add('correct');
+      if(k === idx && idx !== q.a) b.classList.add('wrong');
+    });
+    if(idx === q.a){
+      score++;
+      dots[i].className = 'dot ok';
+      hint.textContent = '答對';
+    } else {
+      dots[i].className = 'dot no';
+      hint.textContent = '答錯，看解釋';
+    }
+    liveScore.textContent = '得分 ' + score;
+    explain.innerHTML = '<b>答案：' + ['A','B','C','D'][q.a] + '</b>　' + q.e;
+    explain.classList.add('show');
+    nextBtn.disabled = false;
+  }
+
+  nextBtn.addEventListener('click', function(){
+    if(i < QS.length - 1){
+      i++;
+      render();
+      body.scrollIntoView({behavior:'smooth', block:'center'});
+    } else {
+      showResult();
+    }
+  });
+
+  function showResult(){
+    body.style.display = 'none';
+    foot.style.display = 'none';
+    result.classList.add('show');
+    document.getElementById('finalScore').textContent = score;
+    var pct = score / QS.length;
+    var circ = 2 * Math.PI * 64;
+    var fg = document.getElementById('ringFg');
+    fg.style.strokeDasharray = circ;
+    fg.style.strokeDashoffset = circ;
+    setTimeout(function(){
+      fg.style.strokeDashoffset = circ * (1 - pct);
+      fg.style.stroke = pct >= .78 ? 'var(--celadon-deep)' : (pct >= .55 ? 'var(--amber)' : 'var(--chili)');
+    }, 60);
+
+    var title, text;
+    if(score === 9){
+      title = '江津老師傅';
+      text = '全對。你不只知道點做，還知道為甚麼要這樣做——這鍋酸菜魚，可以請客了。';
+    } else if(score >= 7){
+      title = '已經可以請客';
+      text = '底子很穩。重看一次答錯的那一題，把細節補上，就沒有明顯破口了。';
+    } else if(score >= 5){
+      title = '有底子，細節要補';
+      text = '大方向對，但幾個關鍵工序（上漿、湯色、落魚片的水溫）還未夠穩。建議回到「做法」再看一次第二步與第五步。';
+    } else if(score >= 3){
+      title = '廚房新手';
+      text = '先把六步流程看一遍，再回來重考。酸菜魚的難點不在調味，而在順序。';
+    } else {
+      title = '由第一步再開始';
+      text = '不要緊，這道菜本來就有很多細節。看一次影片，再讀一次做法，然後重考。';
+    }
+    document.getElementById('gradeTitle').textContent = title;
+    document.getElementById('gradeText').textContent = text;
+  }
+
+  document.getElementById('retryBtn').addEventListener('click', function(){
+    i = 0; score = 0;
+    result.classList.remove('show');
+    body.style.display = '';
+    foot.style.display = '';
+    liveScore.textContent = '得分 0';
+    Array.prototype.forEach.call(dots, function(d){ d.className = 'dot'; });
+    render();
+    document.getElementById('quiz').scrollIntoView({behavior:'smooth'});
+  });
+
+  /* keyboard 1-4 */
+  document.addEventListener('keydown', function(e){
+    if(result.classList.contains('show')) return;
+    if(!document.getElementById('quiz').contains(document.activeElement) && document.activeElement !== document.body) return;
+    var n = parseInt(e.key, 10);
+    if(n >= 1 && n <= 4 && optsEl.children[n-1] && !locked){ choose(n-1); }
+    if(e.key === 'Enter' && !nextBtn.disabled){ nextBtn.click(); }
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
